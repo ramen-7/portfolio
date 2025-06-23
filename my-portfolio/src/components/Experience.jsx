@@ -6,7 +6,7 @@ export default function Experience() {
       <h3 className="text-3xl font-semibold mb-6 underline">Experience</h3>
       <div className="grid gap-6">
         {experience.map((exp, i) => (
-          <div key={i} className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow hover:shadow-xl">
+          <div key={i} className="bg-white dark:bg-gray-800 p-6 rounded-xl border border-gray-200 shadow hover:shadow-xl">
             <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
               <h4 className="text-xl font-bold">{exp.title}</h4>
               <span className="text-sm text-gray-500 dark:text-gray-400">
