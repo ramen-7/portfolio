@@ -18,6 +18,7 @@ function App() {
   return (
     <div className="min-h-screen w-full overflow-x-hidden bg-white dark:bg-gray-950 text-black dark:text-white">
       <Navbar toggleTheme={() => setDarkMode(!darkMode)} darkMode={darkMode} />
+      <br />
       <Hero />
       <Chatbot />
       <About />
