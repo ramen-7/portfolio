@@ -3,10 +3,10 @@ import { projects } from '../data/projects';
 export default function Projects() {
   return (
     <>
-      <h3 className="text-3xl font-semibold mb-6">Projects</h3>
+      <h3 className="text-3xl font-semibold mb-6 underline">Projects</h3>
       <div className="grid gap-6">
         {projects.map((proj, i) => (
-          <div key={i} className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow">
+          <div key={i} className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow hover:shadow-xl">
             <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
               <h4 className="text-xl font-bold">{proj.title}</h4>
               {proj.link && (
