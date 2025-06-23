@@ -1,32 +1,26 @@
-import { projects } from '../data/projects';
+import { experience } from '../data/experience';
 
-export default function Projects() {
+export default function Experience() {
   return (
-    <>
-      <h3 className="text-3xl font-semibold mb-6">Projects</h3>
+     <>
+      <h3 className="text-3xl font-semibold mb-6">Experience</h3>
       <div className="grid gap-6">
-        {projects.map((proj, i) => (
+        {experience.map((exp, i) => (
           <div key={i} className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow">
             <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
-              <h4 className="text-xl font-bold">{proj.title}</h4>
-              {proj.link && (
-                <a
-                  href={proj.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-blue-600 dark:text-blue-400 hover:underline"
-                >
-                  View
-                </a>
-              )}
+              <h4 className="text-xl font-bold">{exp.title}</h4>
+              <span className="text-sm text-gray-500 dark:text-gray-400">
+                {exp.period} • {exp.location}
+              </span>
             </div>
+            <p className="text-sm text-gray-700 dark:text-gray-300 font-medium mb-2">{exp.company}</p>
             <ul className="list-disc list-inside text-sm text-gray-700 dark:text-gray-300 space-y-1">
-              {proj.description.map((point, idx) => (
+              {exp.description.map((point, idx) => (
                 <li key={idx}>{point}</li>
               ))}
             </ul>
             <div className="flex flex-wrap gap-2 mt-3">
-              {proj.stack.map((tech, j) => (
+              {exp.stack.map((tech, j) => (
                 <span
                   key={j}
                   className="text-xs bg-gray-200 dark:bg-gray-700 px-2 py-1 rounded"
@@ -41,3 +35,4 @@ export default function Projects() {
     </>
   );
 }
+
