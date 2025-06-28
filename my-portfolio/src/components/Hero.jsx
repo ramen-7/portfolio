@@ -22,11 +22,11 @@ export default function Hero() {
           </div>
 
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            I build things that work — and sometimes think.
+            I build things that work - and sometimes think.
           </h1>
 
           <p className="text-lg text-gray-600 dark:text-gray-300">
-            I love working with LLMs — from building RAGs and neural networks from scratch, to running models locally on my old gaming PC, or making this website with more help from ChatGPT than I care to admit.
+            I love working with LLMs - from building RAGs and neural networks from scratch, to running models locally on my old gaming PC, or making this website with more help from ChatGPT than I care to admit.
           </p>
         </div>
       </div>
