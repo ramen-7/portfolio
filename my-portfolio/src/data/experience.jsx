@@ -4,17 +4,20 @@ export const experience = [
     company: 'J.P. Morgan Chase & Co.',
     location: 'Bengaluru',
     period: 'Jan 2024 – Present',
-    stack: ['PaddleOCR', 'DBSCAN', 'UMAP', 'TF-IDF', 'HDBSCAN', 'AWS S3'],
+    stack: ['AWS textract', 'OpenAI', 'Prompt Engineering', 'TF-IDF', 'PyMuPDF', 'AWS S3'],
     description: [
       <>
-        Achieved <strong>76.3% precision</strong> and <strong>81.2% recall</strong> by building a document parser using <strong>PaddleOCR</strong>, <strong>DBSCAN</strong>, and <strong>UMAP</strong>.
+        Achieved <strong>90%+ field-level accuracy</strong> and reduced manual verification time by <strong>60%</strong> by building an automated KYC parser for <strong>300+ document types</strong> using <strong>PyMuPDF</strong>, <strong>AWS Textract</strong>, and <strong>OpenAI APIs</strong>.
+      </>,
+      <>
+        Improved field extraction accuracy by <strong>4.7%</strong> through <strong>prompt engineering</strong> and <strong>few-shot examples</strong>.
       </>,
       <>
         Delivered <strong>91.4% intra-cluster cohesion</strong> and <strong>90.8% inter-cluster separation</strong> by building an error categorization pipeline using <strong>TF-IDF</strong>, metadata features, and <strong>HDBSCAN</strong>.
       </>,
       <>
         Reduced on-premise storage costs by over <strong>$1M annually</strong> by porting <strong>1.2 PB of data</strong> to <strong>AWS S3</strong> and optimizing retrieval pipelines.
-      </>,
+      </> 
     ],
   },
   {
