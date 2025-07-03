@@ -7,7 +7,7 @@ export const experience = [
     stack: ['AWS textract', 'OpenAI', 'Prompt Engineering', 'TF-IDF', 'PyMuPDF', 'AWS S3'],
     description: [
       <>
-        Achieved <strong>90%+ field-level accuracy</strong> and reduced manual verification time by <strong>60%</strong> by building an automated KYC parser for <strong>300+ document types</strong> using <strong>PyMuPDF</strong>, <strong>AWS Textract</strong>, and <strong>OpenAI APIs</strong>.
+        Achieved <strong>95.8%+ field-level accuracy</strong> and reduced manual verification time by <strong>60%</strong> by building an automated KYC parser for <strong>300+ document types</strong> using <strong>PyMuPDF</strong>, <strong>AWS Textract</strong>, and <strong>OpenAI APIs</strong>.
       </>,
       <>
         Improved field extraction accuracy by <strong>4.7%</strong> through <strong>prompt engineering</strong> and <strong>few-shot examples</strong>.
