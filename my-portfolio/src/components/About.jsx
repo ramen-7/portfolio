@@ -2,8 +2,8 @@ export default function About() {
   return (
     <section id="about" className="w-full py-12 bg-white dark:bg-gray-950">
       <div className="max-w-4xl px-4 md:px-8 mx-auto">
-        <h2 className="text-3xl font-bold mb-6 text-center lg:text-left">About Me</h2>
-        <ul className="list-disc pl-5 space-y-3 text-gray-700 dark:text-gray-300 text-base">
+        <h2 className="text-2xl sm:text-3xl font-bold mb-3 sm:mb-6 text-center lg:text-left">About Me</h2>
+        <ul className="list-disc pl-5 space-y-3 text-gray-700 dark:text-gray-300 text-sm sm:text-base">
           <li>
             <strong>Ranked top 7%</strong> (Bronze) in Kaggle’s LLM Science Exam and <strong>top 9%</strong> (Bronze) in PII Detection - with RAG, FAISS, and DeBERTa ensemble pipelines.
           </li>
