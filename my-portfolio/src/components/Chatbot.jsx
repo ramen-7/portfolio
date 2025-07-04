@@ -5,7 +5,7 @@ export default function Chatbot() {
         {/* Coming Soon Overlay */}
         <div className="absolute inset-0 z-10 bg-white/10 dark:bg-black/10 backdrop-blur-sm flex flex-col items-center justify-center text-center px-4">
           <h2 className="text-2xl font-bold mb-2 text-gray-800 dark:text-white">
-            An LLM Chatbot Based on Shivam is Coming Soon
+            A LLM Chatbot Based on Shivam is Coming Soon
           </h2>
           <p className="text-sm text-gray-900 dark:text-gray-300 mb-1">
             I’m learning everything about me. Check back soon 🤖
