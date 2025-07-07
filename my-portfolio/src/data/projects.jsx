@@ -11,7 +11,7 @@ export const projects = [
         Improved <strong>Mean Average Precision</strong> to <strong>0.902 (+7%)</strong> through <strong>RAG</strong> and model <strong>ensembling</strong>.
       </>,
       <>
-        Accelerated retrieval by <strong>20%</strong> by applying <strong>FAISS</strong> on <strong>TF-IDF embeddings</strong>.
+        Achieved <strong>20%</strong> faster retrieval using <strong>TF-IDF</strong> embeddings; reduced index size from <strong>900GB to 9.66GB</strong> with <strong>FAISS IVFPQ</strong>.
       </>,
       <>
         Ranked <strong>Top 7% (172/2662)</strong> worldwide on <strong>Kaggle</strong> and awarded a <strong>Bronze Medal</strong>.
