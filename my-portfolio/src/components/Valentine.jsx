@@ -326,7 +326,7 @@ export default function Valentine() {
         if (!finalStage && lettersRevealed >= TOTAL_LETTERS) {
             setFinalStage(true)
         } else {
-            alert('I knew it ❤️')
+            alert('Pani Puri date or Amintri Breakfast?')
         }
     }
 
